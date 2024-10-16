@@ -1,1 +1,7 @@
-# BWD-Wael-AyoubMaazouz-2425
+# Basic Web Development
+
+- Academiejaar: 
+- Opleiding: 
+- Klasgroep: 
+- Naam: 
+
