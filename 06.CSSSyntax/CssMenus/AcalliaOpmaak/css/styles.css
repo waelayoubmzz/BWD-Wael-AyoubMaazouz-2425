@@ -1,0 +1,160 @@
+/**
+ *
+ * Common styles
+ *
+ * @author Hicham Lahmouri
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* html, body and general element styles here */
+/* ... */
+html
+{
+   background-color: #dfdfdf;
+}
+
+/* ===========================================
+   Menu
+   =========================================== */
+
+/* menu styles here */
+body
+{
+   background-color: white;
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.8;
+   text-align: justify;
+   font-size: 13px;
+   border-radius: 10px;
+}
+section img
+{
+   border: 1px solid lightgrey;
+}
+header
+{
+   color: red;
+}
+
+nav ul li 
+{
+   display: inline-block;
+   color: black;
+   text-align: right;
+}
+
+nav ul li a
+{
+   text-decoration: none;
+   color: black;
+   padding: 7px 10px;
+}
+
+nav ul li a:hover
+{
+   background-color: #b52025;
+   color: white;
+
+}
+
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+#banner
+{
+   border: 5px solid;
+   border-color: #b52025;
+   box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.4);
+}
+div img
+{
+   width: 100%;
+   height: 100%;
+}
+#banner p
+{
+   padding: 10px 20px;
+   background-color: rgba(0, 0, 0, 0.6);
+   color: lightgray;
+   font-size: 13px;
+}
+
+
+
+/* ===========================================
+   Main
+   =========================================== */
+
+/* main styles here */
+/* ... */
+
+
+h3
+{
+   text-transform: uppercase;
+   color: #b52025;
+   font-weight: lighter;
+}
+h3::after
+{
+   content: " →";
+}
+
+.more
+{
+   text-align: right;
+}
+
+.more a
+{
+   padding: 10px 15px;
+   text-decoration: none;
+   border: 1px solid #b52025;
+   border-radius: 10px;
+   color: #b52025;
+}
+.more a::after
+{
+   content: "»";
+}
+.more a:hover
+{
+   text-decoration: underline;
+}
+form
+{
+   text-align: left;
+}
+
+#email
+{
+   background-color: #fdeaeb;
+}
+section form button:hover
+{
+   background-color: #b52025;
+   color: white;
+}
+/* ===========================================
+   Footer
+   =========================================== */
+
+/* footer styles here */
+/* ... */
+footer
+{
+   text-align: center;
+   border-top: 2px #dfdfdf dotted;
+   background: linear-gradient(
+      to bottom,
+      #dfdfdf,
+      white
+   );
+}

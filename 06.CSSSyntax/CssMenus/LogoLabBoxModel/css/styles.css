@@ -1,0 +1,61 @@
+header
+{
+    padding-bottom: 40px;
+}
+nav ul li a
+{
+    padding: 10px 20px;
+}
+#slogan
+{
+    margin-top: 15px;
+}
+#enstein
+{
+    margin-bottom: 20px;
+}
+h2
+{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.logo img
+{
+    border: 10px solid white;
+}
+#bestelnu
+{
+    padding-bottom: 15px;
+}
+.logo h3
+{
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.logo p
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.button
+{
+    padding: 10px 20px;
+}
+#social li
+{
+    margin-top: 10px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+footer
+{
+    padding-top: 40px;
+    border-top: 1px solid lightgrey;
+    margin-top: 100px;
+}
+footer ul li
+{
+    padding-bottom: 10px;
+    margin: 15px auto;
+    border-bottom: 1px solid lightgrey;
+}

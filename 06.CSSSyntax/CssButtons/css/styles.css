@@ -1,0 +1,84 @@
+body, h1, h2, p {
+    margin: 5px;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.btnGreen {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(143, 187, 68);
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.btnGreen::after
+{
+    content: " →";
+}
+
+.btnFav {
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 0, 0, 0.2);
+    color: rgb(143, 74, 74);
+    text-decoration: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.btnTiktok {
+    display: inline-flex;
+    padding: 15px 30px;
+    background-color: lightgray;
+    color: black;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.btnTiktok p a{
+    text-decoration: none;
+    color: black;
+}
+.btnTiktok img{
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+div .btnGreen{
+    transition: 0.5s, 0.5s;
+}
+div .btnGreen:hover{
+    border-radius: 5px;
+    color: white;
+    padding: 20px 40px;
+    font-size: 19px;
+}
+div .btnFav{
+    transition: 0.5s, 0.5s;
+}
+div .btnFav:hover {
+    padding: 15px 25px;
+}
+.btnTiktok{
+    transition: 0.5s 0.5s;
+}
+.btnTiktok:hover{
+    padding: 30px 50px;
+}
